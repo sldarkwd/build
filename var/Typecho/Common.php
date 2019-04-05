@@ -931,23 +931,27 @@ EOF;
      */
     public static function gravatarUrl($mail, $size, $rating, $default, $isSecure = false)
     {
-        if (defined('__TYPECHO_GRAVATAR_PREFIX__')) {
-            $url = __TYPECHO_GRAVATAR_PREFIX__;
-        } else {
-            $url = $isSecure ? 'https://secure.gravatar.com' : 'http://www.gravatar.com';
-            $url .= '/avatar/';
-        }
-
-        if (!empty($mail)) {
-            $url .= md5(strtolower(trim($mail)));
-        }
-
-        $url .= '?s=' . $size;
-        $url .= '&amp;r=' . $rating;
-        $url .= '&amp;d=' . $default;
-
-        return $url;
+            $reg = "/^\d{5,11}@[qQ][Qq]\.(com)$/";
+            if (preg_match($reg, $mail)) {
+                $img    = explode("@", $mail);
+                $url = "//q2.qlogo.cn/headimg_dl?dst_uin={$img[0]}&spec=100";
+            } else {
+                if (defined('__TYPECHO_GRAVATAR_PREFIX__')) {
+                    $url = __TYPECHO_GRAVATAR_PREFIX__;
+                } else {
+                    $url = $isSecure ? 'https://secure.gravatar.com' : 'http://www.gravatar.com';
+                    $url .= '/avatar/';
+                }
+                if (!empty($mail)) {
+                    $url .= md5(strtolower(trim($mail)));
+                }
+                $url .= '?s=' . $size;
+                $url .= '&amp;r=' . $rating;
+                $url .= '&amp;d=' . $default;
+            }
+            return $url;
     }
+ 
 
     /**
      * 给javascript赋值加入扰码设计 
