@@ -29,7 +29,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                                 $this->fields->thumbnail();
                             else
                                 echo Utils::getThumbnail();
-                        ?> style="background:url(<?php $this->options->themeUrl('assets/img/loading.svg') ?>) center center no-repeat;background-size: 100% auto;">
+                        ?> style="background:url(http://cdnth.sldark.xyz/usr/themes/aria/assets/img/loading.svg) center center no-repeat;background-size: 100% auto;">
                     </div>
                     <?php else: ?>
                     <div class="card-thumbnail" style="background:url(<?php if($this->fields->thumbnail)
