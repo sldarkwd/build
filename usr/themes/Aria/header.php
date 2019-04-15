@@ -21,7 +21,7 @@
 
 	<!-- 使用url函数转换相关路径 -->
 
-    <link rel="icon" type="image/ico" href="/favicon.ico">
+    <link rel="icon" type="image/ico" href="http://cdnth.sldark.xyz/favicon.ico">
 	<?php if(Utils::isEnabled('enableFancybox','AriaConfig')): ?>
 	<link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/jquery.fancybox.min.css" rel="stylesheet">
     <?php endif; ?>
