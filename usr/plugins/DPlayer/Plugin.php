@@ -48,7 +48,7 @@ class DPlayer_Plugin implements Typecho_Plugin_Interface
     {
         $url = Helper::options()->pluginUrl . '/DPlayer';
         echo <<<EOF
-<link rel="stylesheet" type="text/css" href="http://cdnth.sldark.xyz/usr/plugins/dist/DPlayer.min.css" />
+<link rel="stylesheet" type="text/css" href="http://cdnth.sldark.xyz/usr/plugins/DPlayer/dist/DPlayer.min.css" />
 <script>var dPlayers = [];var dPlayerOptions = [];</script>
 EOF;
     }
@@ -60,14 +60,14 @@ EOF;
     {
         $url = Helper::options()->pluginUrl . '/DPlayer';
         if (Typecho_Widget::widget('Widget_Options')->plugin('DPlayer')->hls) {
-            echo "<script type=\"text/javascript\" src=\"//cdnth.sldark.xyz/usr/plugins/plugin/hls.min.js\"></script>\n";
+            echo "<script type=\"text/javascript\" src=\"//cdnth.sldark.xyz/usr/plugins/DPlayer/plugin/hls.min.js\"></script>\n";
         }
         if (Typecho_Widget::widget('Widget_Options')->plugin('DPlayer')->flv) {
-            echo "<script type=\"text/javascript\" src=\"//cdnth.sldark.xyz/usr/plugins/plugin/flv.min.js\"></script>\n";
+            echo "<script type=\"text/javascript\" src=\"//cdnth.sldark.xyz/usr/plugins/DPlayer/plugin/flv.min.js\"></script>\n";
         }
         echo <<<EOF
-<script type="text/javascript" src="//cdnth.sldark.xyz/usr/plugins/dist/DPlayer.min.js"></script>
-<script type="text/javascript" src="//cdnth.sldark.xyz/usr/plugins/dist/init-dplayer.js"></script>
+<script type="text/javascript" src="//cdnth.sldark.xyz/usr/plugins/DPlayer/dist/DPlayer.min.js"></script>
+<script type="text/javascript" src="//cdnth.sldark.xyz/usr/plugins/DPlayer/dist/init-dplayer.js"></script>
 EOF;
     }
 

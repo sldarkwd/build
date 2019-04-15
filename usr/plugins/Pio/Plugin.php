@@ -225,7 +225,7 @@ class Pio_Plugin implements Typecho_Plugin_Interface{
             '<div class="pio-container{position}"><div class="pio-action"></div>{canvas}</div>'
         );
 
-        echo "<script src='//cdnth.sldark.xyz/usr/plugins/l2d.js'></script>" . "\n";
+        echo "<script src='//cdnth.sldark.xyz/usr/plugins/Pio/l2d.js'></script>" . "\n";
         echo "<script src='//cdnth.sldark.xyz/usr/plugins/Pio/static/pio.js'></script>" . "\n";
         echo $loader;
     }
