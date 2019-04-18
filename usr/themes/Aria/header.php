@@ -28,7 +28,7 @@
 	<link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/OwO/OwO.min.css" rel="stylesheet">
 	<link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/animate.min.css" rel="stylesheet">
     <link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/iconfont.css" rel="stylesheet" >
-    <link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/style.min.css?v=213a50a4db" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@1c506e0/usr/themes/Aria/assets/css/style.min.css" rel="stylesheet">
     <script src="http://cdnth.sldark.xyz/usr/themes/aria/assets/js/jquery.min.js"></script>
     <?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
