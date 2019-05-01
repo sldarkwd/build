@@ -30,8 +30,6 @@
     <link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/iconfont.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@1c506e0/usr/themes/Aria/assets/css/style.min.css" rel="stylesheet">
     <script src="http://cdnth.sldark.xyz/usr/themes/aria/assets/js/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/sldarkwd/build@470e682/usr/themes/Aria/assets/js/modernizr-custom.js"></script>
-   	<script src='https://cdn.jsdelivr.net/gh/sldarkwd/build@f01d4c7/usr/themes/Aria/assets/js/webpjs-0.0.2.min.js'></script>
 	<?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -52,14 +50,6 @@
     <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="https://support.dmeng.net/upgrade-your-browser.html">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
 	<div id="Modernizer">
-  <script>
-	Modernizr.on('webp', function(result) {
-	if (result);
-	else {
-    alert("当前的浏览器可能无法加载图片. 为了正常的访问, 建议使用原生支持webp格式的浏览器！");
-		}
-  });
-  </script>
 	</div>
 <div id="nav-menu" role="navigation">
     <div id="nav-left">
