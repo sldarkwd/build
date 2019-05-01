@@ -58,7 +58,7 @@
     alert("当前网页 不支持 你正在使用的浏览器. 为了正常的访问, 请升级你的浏览器!!!");
 	window.location.href="https://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(window.location.href);
 		}
-  }
+  });
   </script>
 	</div>
 <div id="nav-menu" role="navigation">
