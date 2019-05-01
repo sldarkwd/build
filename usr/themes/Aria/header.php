@@ -55,8 +55,8 @@
 	Modernizr.on('webp', function(result) {
 	if (result);
 	else {
-    alert("当前的浏览器可能无法加载图片. 为了正常的访问, 建议使用原生支持webp格式的浏览器！");document.write("<script language='javascript' src='https://cdn.jsdelivr.net/gh/sldarkwd/build@f01d4c7/usr/themes/Aria/assets/js/webpjs-0.0.2.min.js'></script>");
-		}
+    alert("当前的浏览器可能无法加载图片. 为了正常的访问, 建议使用原生支持webp格式的浏览器！");
+	}
   });
   </script>
 	</div>
