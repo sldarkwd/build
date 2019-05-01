@@ -47,9 +47,24 @@
         <?php $slugs = Utils::getPagesInfo();Utils::showNav(0,$slugs); ?>
     </ul>
 </div>
-		<!--[if IE]>
-    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="https://www.mozilla.org/zh-CN/firefox/new/">升级你的浏览器</a>'); ?>.</div>
+		<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
+	<div id="Modernizer">
+  <script> 
+	if (Modernizr.smil);
+	else {
+		alert("当前网页 不支持 你正在使用的浏览器. 为了正常的访问, 请升级你的浏览器!!!");
+		window.location.href="https://support.dmeng.net/upgrade-your-browser.html"+encodeURIComponent(window.location.href);
+		}
+	Modernizr.on('webp', function(result) {
+	if (result);
+	else {
+    alert("当前网页 不支持 你正在使用的浏览器. 为了正常的访问, 请升级你的浏览器!!!");
+	window.location.href="https://support.dmeng.net/upgrade-your-browser.html"+encodeURIComponent(window.location.href);
+  }
+  </script>
+	</div>
 <div id="nav-menu" role="navigation">
     <div id="nav-left">
         <a href="<?php $this->options->siteUrl(); ?>"><img id="site-avatar" no-lazyload src="<?php Utils::getAdminAvatar(50); ?>">
