@@ -31,7 +31,7 @@
     <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@1c506e0/usr/themes/Aria/assets/css/style.min.css" rel="stylesheet">
     <script src="http://cdnth.sldark.xyz/usr/themes/aria/assets/js/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/sldarkwd/build@470e682/usr/themes/Aria/assets/js/modernizr-custom.js"></script>
-    <?php if($this->options->customHeader) $this->options->customHeader(); ?>
+   	<?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
     <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
@@ -55,7 +55,7 @@
 	Modernizr.on('webp', function(result) {
 	if (result);
 	else {
-    alert("您当前的浏览器可能无法加载图片. 为了正常的访问, 请更换为支持webp格式的浏览器！");
+    alert("当前的浏览器可能无法加载图片. 为了正常的访问, 建议使用原生支持webp格式的浏览器！");document.write("<script language='javascript' src='https://cdn.jsdelivr.net/gh/sldarkwd/build@f01d4c7/usr/themes/Aria/assets/js/webpjs-0.0.2.min.js'></script>");
 		}
   });
   </script>
