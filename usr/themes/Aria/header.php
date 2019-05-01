@@ -51,7 +51,7 @@
     <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
 	<div id="Modernizer">
-  <script> 
+  <script>
 	if (Modernizr.smil);
 	else {
 		alert("当前网页 不支持 你正在使用的浏览器. 为了正常的访问, 请升级你的浏览器!!!");
@@ -62,6 +62,7 @@
 	else {
     alert("当前网页 不支持 你正在使用的浏览器. 为了正常的访问, 请升级你的浏览器!!!");
 	window.location.href="https://support.dmeng.net/upgrade-your-browser.html"+encodeURIComponent(window.location.href);
+		}
   }
   </script>
 	</div>
