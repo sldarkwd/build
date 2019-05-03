@@ -30,6 +30,7 @@
     <link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/iconfont.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@1c506e0/usr/themes/Aria/assets/css/style.min.css" rel="stylesheet">
     <script src="http://cdnth.sldark.xyz/usr/themes/aria/assets/js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/sldarkwd/build@af863a4/usr/themes/Aria/assets/js/modernizr-custom.js"></script>
 	<?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
