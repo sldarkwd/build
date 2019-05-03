@@ -30,6 +30,7 @@
     <link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/iconfont.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@1c506e0/usr/themes/Aria/assets/css/style.min.css" rel="stylesheet">
     <script src="http://cdnth.sldark.xyz/usr/themes/aria/assets/js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/sldarkwd/build@af863a4/usr/themes/Aria/assets/js/webpjs-0.0.2.min.js"></script>
 	<?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -46,8 +47,8 @@
         <?php $slugs = Utils::getPagesInfo();Utils::showNav(0,$slugs); ?>
     </ul>
 </div>
-		<!--[if IE]>
-    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 可能无法加载图片, 请 <a href="https://support.dmeng.net/upgrade-your-browser.html">升级你的浏览器</a>'); ?>.</div>
+		<!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="https://support.dmeng.net/upgrade-your-browser.html">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
 	<div id="Modernizer">
 	</div>
