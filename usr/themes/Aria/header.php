@@ -50,14 +50,6 @@
     <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="https://support.dmeng.net/upgrade-your-browser.html">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
 	<div id="Modernizer">
-		<script>
-			Modernizr.on('webp', function(result) {
-				if (result) ;
-				else {
-					<div class="message popup error" style="position: fixed; top: 0px; display: block;"><ul><li>浏览器可能不支持加载图片！</li></ul></div>
-				}
-			});
-		</script>
 	</div>
 <div id="nav-menu" role="navigation">
     <div id="nav-left">
