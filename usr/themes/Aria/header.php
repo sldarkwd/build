@@ -46,8 +46,8 @@
         <?php $slugs = Utils::getPagesInfo();Utils::showNav(0,$slugs); ?>
     </ul>
 </div>
-		<!--[if lt IE 8]>
-    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="https://support.dmeng.net/upgrade-your-browser.html">升级你的浏览器</a>'); ?>.</div>
+		<!--[if IE]>
+    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 可能无法加载图片, 请 <a href="https://support.dmeng.net/upgrade-your-browser.html">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
 	<div id="Modernizer">
 	</div>
