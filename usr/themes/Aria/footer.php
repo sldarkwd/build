@@ -29,5 +29,6 @@
 <?php echo $this->options->customScript ? "<script>".$this->options->customScript."</script>\n" : ""; ?>
 <?php if($this->options->statistics) $this->options->statistics(); ?>
 <?php $this->footer(); ?>
+<div><br><br></div>
 </body>
 </html>
