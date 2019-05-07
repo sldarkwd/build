@@ -60,14 +60,14 @@ EOF;
     {
         $url = Helper::options()->pluginUrl . '/DPlayer';
         if (Typecho_Widget::widget('Widget_Options')->plugin('DPlayer')->hls) {
-            echo "<script type=\"text/javascript\" src=\"//https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/hls.min.js"></script>\n";
+            echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/hls.min.js"></script>\n";
         }
         if (Typecho_Widget::widget('Widget_Options')->plugin('DPlayer')->flv) {
-            echo "<script type=\"text/javascript\" src=\"//https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/flv.min.js"></script>\n";
+            echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/flv.min.js"></script>\n";
         }
         echo <<<EOF
-<script type="text/javascript" src="//https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/DPlayer.min.js"></script>
-<script type="text/javascript" src="//https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/init-dplayer.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/DPlayer.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/init-dplayer.js"></script>
 EOF;
     }
 
