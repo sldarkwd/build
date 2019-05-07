@@ -1179,6 +1179,7 @@ class Widget_Archive extends Widget_Abstract_Contents
         /** 增加自定义搜索引擎接口 */
         //~ fix issue 40
         $keywords = $this->request->filter('url', 'search')->keywords;
+		$keywords = iconv("gbk", "utf-8//IGNORE", $keywords);
         $this->pluginHandle()->trigger($hasPushed)->search($keywords, $this);
 
         if (!$hasPushed) {
