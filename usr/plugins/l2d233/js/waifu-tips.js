@@ -37,9 +37,9 @@ $('.waifu-tool .fa-camera').click(function(){
 });
 loadlive2d('live2d',l2d.xb+'/model/api.php?p=33&model=default');
 function showHitokoto(){
-    $.post("https://lab.qqdie.com/hitokoto/hitokoto.php",function(result){
-        showMessage(result);
-    });
+    $.get("https://v1.hitokoto.cn/?c=a&encode=text",function(result){
+    showMessage(result);
+});
 }
 function showMessage(a,b){
     if(b==null) b = 10000;
