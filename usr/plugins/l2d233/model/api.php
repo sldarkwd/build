@@ -5,7 +5,7 @@ if($_GET['p']==='22') $p = 2; else if($_GET['p']==='33') $p = 3; else $p = rand(
 if($p==2){$person = 22;$idle3 = 100;$tap1 = 150;$tap2 = 100;}else{$person = 33;$idle3 = 1000;$tap1 = 500;$tap2 = 200;}
 header("Content-type: application/json");
 if($_GET['model']==='rand') echo '{
-    "model":"'.$person.'/'.$person.'.v2.moc",
+    "model":"cdn.jsdelivr.net/gh/sldarkwd/build@03a509e/usr/plugins/l2d233/model/33/33.v2.moc",
     "textures":[
         "'.$person.'/textures/texture_00.png",
         "'.$person.'/textures/texture_01/'.$ra1.'.png",
