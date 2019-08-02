@@ -21,15 +21,15 @@
 
 	<!-- 使用url函数转换相关路径 -->
 
-    <link rel="icon" type="image/ico" href="http://cdnth.sldark.xyz/favicon.ico">
+    <link rel="icon" type="image/ico" href="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/favicon.ico">
 	<?php if(Utils::isEnabled('enableFancybox','AriaConfig')): ?>
-	<link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@e71167c/usr/themes/Aria/assets/css/jquery.fancybox.min.css" rel="stylesheet">
     <?php endif; ?>
-	<link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/OwO/OwO.min.css" rel="stylesheet">
-	<link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/animate.min.css" rel="stylesheet">
-    <link href="http://cdnth.sldark.xyz/usr/themes/aria/assets/css/iconfont.css" rel="stylesheet" >
+	<link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@e71167c/usr/themes/Aria/assets/OwO/OwO.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@e71167c/usr/themes/Aria/assets/css/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@e71167c/usr/themes/Aria/assets/css/iconfont.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/gh/sldarkwd/build@e71167c/usr/themes/Aria/assets/css/style.min.css" rel="stylesheet">
-    <script src="http://cdnth.sldark.xyz/usr/themes/aria/assets/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sldarkwd/build@e71167c/usr/themes/Aria/assets/js/jquery.min.js"></script>
 	<?php if($this->options->customHeader) $this->options->customHeader(); ?>
 	<!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
