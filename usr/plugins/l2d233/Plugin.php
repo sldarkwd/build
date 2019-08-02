@@ -34,9 +34,9 @@ class l2d233_Plugin implements Typecho_Plugin_Interface
         $options = Helper::options()->plugin('l2d233'); 
 		echo '<div class="l2d_xb">'; 
       if (!empty(Helper::options()->plugin('l2d233')->l2dst) && in_array('awesome', Helper::options()->plugin('l2d233')->l2dst)){
-echo '<link rel="stylesheet" href="'.Helper::options()->pluginUrl . '/l2d233/css/font-awesome.min.css" type="text/css">';
+echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/css/font-awesome.min.css" type="text/css">';
       }
-    echo '<link rel="stylesheet" href="'.Helper::options()->pluginUrl . '/l2d233/css/waifu.min.css" type="text/css">';
+    echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/css/waifu.min.css" type="text/css">';
     echo '
     <div class="waifu">
         <div class="waifu-tips"></div>
@@ -55,9 +55,9 @@ echo '<link rel="stylesheet" href="'.Helper::options()->pluginUrl . '/l2d233/css
 
 
  if (!empty(Helper::options()->plugin('l2d233')->l2dst) && in_array('jq', Helper::options()->plugin('l2d233')->l2dst)){
-echo '<script  src="'.Helper::options()->pluginUrl . '/l2d233/js/jquery.min.js?v=2.1.4"></script>' . "\n";   }
-      echo '<script>var l2d = {"xb":"'.Helper::options()->pluginUrl . '/l2d233"};</script>';
-        echo '<script  src="'.Helper::options()->pluginUrl . '/l2d233/js/live2d.js?v=r3"></script><script  src="'.Helper::options()->pluginUrl . '/l2d233/js/waifu-tips.js?v=1.1"></script>  </div>' . "\n";        
+echo '<script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/js/jquery.min.js?v=2.1.4"></script>' . "\n";   }
+      echo '<script>var l2d = {"xb":"https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233"};</script>';
+        echo '<script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/js/live2d.js?v=r3"></script><script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/js/waifu-tips.js?v=1.1"></script>  </div>' . "\n";        
  
     }
     }
