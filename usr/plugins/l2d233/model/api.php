@@ -12,7 +12,7 @@ if($_GET['model']==='rand') echo '{
         "https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/model/'.$person.'/textures/texture_02/'.$ra1.'.png",
         "https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/model/'.$person.'/textures/texture_03/'.$ra2.'.png"
 '; else echo '{
-    "model":"./'.$person.'/'.$person.'.v2.moc",
+    "model":"https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/model/'.$person.'/'.$person.'.v2.moc",
     "textures":[
         "https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/model/'.$person.'/textures/texture_00.png",
         "https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/model/'.$person.'/textures/texture_01/1.png",
