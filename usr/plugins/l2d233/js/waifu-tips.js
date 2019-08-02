@@ -23,7 +23,7 @@ $('.waifu-tool .fa-street-view').click(function (){
     showMessage('我的新衣服好看嘛',4000);
 });
 $('.waifu-tool .fa-info-circle').click(function (){
-    window.open('https://qqdie.com/archives/l2d233.html');
+    window.open('https://dfacgn.com/index.php/about.html');
 });
 $('.waifu-tool .fa-close').click(function(){
     sessionStorage.setItem('waifu-dsiplay','none');
