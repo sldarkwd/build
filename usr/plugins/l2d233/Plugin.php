@@ -91,7 +91,7 @@ echo '<script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/
         foreach ($mobile_browser as $device) {
             if (stristr($user_agent, $device)) {
                 $is_mobile = true;
-                break;
+                
             }
         }
         return $is_mobile;
