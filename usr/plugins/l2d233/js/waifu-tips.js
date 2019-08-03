@@ -9,7 +9,7 @@ $('.waifu-tool .fa-drivers-license-o').click(function(){
     loadlive2d('live2d',l2d.xb+'/model/api.php?p='+model_p+'&model=rand');
     if(model_p===22){
         model_p = 33;
-        showMessage('33援交有点累了，现在该我上场了',4000);
+        showMessage('33有点累了，现在该我上场了',4000);
     }else{
         model_p = 22;
         showMessage('我又回来了！',4000);
@@ -58,13 +58,13 @@ function showMessage(a,b){
         }else if(now>5&&now<=7){
             text = '早上好！一日之计在于晨，美好的一天就要开始了';
         }else if(now>7&&now<=11){
-            text = '上午好！工作顺利嘛，不要久坐，多起来走动走动哦！';
+            text = '上午好！新的一天怎么样？不要久坐，多起来走动走动哦！';
         }else if(now>11&&now<=14){
-            text = '中午了，工作了一个上午，现在是午餐时间！';
+            text = '中午了，不要太辛苦了，稍微午睡下也是可以的';
         }else if(now>14&&now<=17){
             text = '午后很容易犯困呢，今天的运动目标完成了吗？';
         }else if(now>17&&now<=19){
-            text = '傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~';
+            text = '傍晚了！窗外夕阳的景色很美丽呢~~';
         }else if(now>19&&now<=21){
             text = '晚上好，今天过得怎么样？';
         }else if(now>21&&now<=23){
@@ -187,7 +187,7 @@ jQuery(document).ready(function($){
         showMessage('猜猜我要说些什么？');
     });
     $('.waifu-tool .fa-drivers-license-o').mouseover(function(){
-        if(model_p===22) showMessage('要见见我的姐姐嘛'); else showMessage('什么？我的服务不好，要33回来？');
+        if(model_p===22) showMessage('要见见我的姐姐嘛'); else showMessage('什么？我的不可爱吗，要33回来？');
     });
     $('.waifu-tool .fa-street-view').mouseover(function(){
         showMessage('喜欢换装play吗？');
@@ -275,7 +275,7 @@ jQuery(document).ready(function($){
                 msgs = ["你有完没完呀？","你已经摸我"+stat_click+"次了","非礼呀！救命！","OH，My ladygaga","110吗，这里有个变态一直在摸我(ó﹏ò｡)"];
                 var i = Math.floor(Math.random()*msgs.length);
             } else {
-                msgs = ["是…是不小心碰到了吧","我跑呀跑呀跑！~~","再摸的话我可要报警了！⌇●﹏●⌇","别摸我，有什么好摸的！","惹不起你，我还躲不起你么？","不要摸我了，我会告诉老婆来打你的！","干嘛动我呀！小心我咬你！"];
+                msgs = ["是…是不小心碰到了吧","我跑呀跑呀跑！~~","再摸的话我可要报警了！⌇●﹏●⌇","别摸我，有什么好摸的！","惹不起你，我还躲不起你么？","不要摸我了，我会告诉你老婆来打你的！","干嘛动我呀！小心我咬你！"];
                 var i = Math.floor(Math.random()*msgs.length);
             }
         s = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.75,-0.1,-0.2,-0.3,-0.4,-0.5,-0.6,-0.7,-0.75];
