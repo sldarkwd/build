@@ -57,7 +57,7 @@ echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sldarkwd/pictures
  if (!empty(Helper::options()->plugin('l2d233')->l2dst) && in_array('jq', Helper::options()->plugin('l2d233')->l2dst)){
 echo '<script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/js/jquery.min.js?v=2.1.4"></script>' . "\n";   }
       echo '<script>var l2d = {"xb":"'.Helper::options()->pluginUrl . '/l2d233"};</script>';
-        echo '<script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/js/live2d.js?v=r3"></script><script  src="https://cdn.jsdelivr.net/gh/sldarkwd/build@03a509e/usr/plugins/l2d233/js/waifu-tips.js"></script>  </div>' . "\n";        
+        echo '<script  src="https://cdn.jsdelivr.net/gh/sldarkwd/pictures@a03cdf7/model/l2d233/js/live2d.js?v=r3"></script><script  src="https://cdn.jsdelivr.net/gh/sldarkwd/build@25ead1d/usr/plugins/l2d233/js/waifu-tips.js"></script>  </div>' . "\n";        
  
     }
     }
