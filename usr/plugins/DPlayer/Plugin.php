@@ -48,7 +48,7 @@ class DPlayer_Plugin implements Typecho_Plugin_Interface
     {
         $url = Helper::options()->pluginUrl . '/DPlayer';
         echo <<<EOF
-<link rel="stylesheet" type="text/css" href="https://cdnjs.loli.net/ajax/libs/dplayer/1.9.1/DPlayer.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css" />
 <script>var dPlayers = [];var dPlayerOptions = [];</script>
 EOF;
     }
@@ -60,13 +60,13 @@ EOF;
     {
         $url = Helper::options()->pluginUrl . '/DPlayer';
         if (Typecho_Widget::widget('Widget_Options')->plugin('DPlayer')->hls) {
-            echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/hls.min.js\"></script>\n";
+            echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>\n";
         }
         if (Typecho_Widget::widget('Widget_Options')->plugin('DPlayer')->flv) {
-            echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/flv.min.js\"></script>\n";
+            echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js\"></script>\n";
         }
         echo <<<EOF
-<script type="text/javascript" src="https://cdnjs.loli.net/ajax/libs/dplayer/1.9.1/DPlayer.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/init-dplayer.js"></script>
 EOF;
     }
