@@ -48,7 +48,7 @@ class DPlayer_Plugin implements Typecho_Plugin_Interface
     {
         $url = Helper::options()->pluginUrl . '/DPlayer';
         echo <<<EOF
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/DPlayer.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.loli.net/ajax/libs/dplayer/1.9.1/DPlayer.min.css" />
 <script>var dPlayers = [];var dPlayerOptions = [];</script>
 EOF;
     }
@@ -66,7 +66,7 @@ EOF;
             echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/plugin/flv.min.js\"></script>\n";
         }
         echo <<<EOF
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/DPlayer.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.loli.net/ajax/libs/dplayer/1.9.1/DPlayer.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sldarkwd/build@aba4e1d/usr/plugins/DPlayer/dist/init-dplayer.js"></script>
 EOF;
     }
